@@ -46,12 +46,14 @@ fun WeatherCard(state: WeatherState, backgroundColor: Color, modifier: Modifier 
                     .padding(16.dp), horizontalAlignment = Alignment.CenterHorizontally
             ) {
 
+                Row(horizontalArrangement = Arrangement.SpaceBetween, modifier = Modifier.fillMaxWidth()){
+                    Text(text=data.time.format(DateTimeFormatter.ofPattern("yyyy-MM-dd")),color = Color.White)
                 Text(
                     text = data.time.format(DateTimeFormatter.ofPattern("HH:MM")),
                     textAlign = TextAlign.Right,
-                    modifier = Modifier.align(Alignment.End),
+
                     color = Color.White
-                )
+                )}
                 Spacer(modifier = Modifier.padding(16.dp))
                 Image(
                     painter = painterResource(id = data.weatherType.iconRes),
