@@ -13,7 +13,7 @@ Why I didn't use MVVM pattern?
 
 Whereas in MVVM there is usually a separate publisher for each piece of data, in MVI a single object defining the entire state of the view is published.
 
-![image](https://user-images.githubusercontent.com/47060539/179554298-22a6ea9d-deb0-42b4-88bd-08ef045c6587.png)
+![image](https://user-images.githubusercontent.com/47060539/179554354-20980269-4ba1-4b4c-a661-f60cc9de537a.png)
 
 ## What Is Dagger Hilt And Why Should Use It?
 
