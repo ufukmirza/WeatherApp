@@ -31,5 +31,11 @@ Dagger hilt is simply dependency injection library. So, firstly we should ask wh
 The library provides a powerful framework for authenticating and interacting with APIs and sending network requests with OkHttp. This library makes downloading JSON or XML data from a web API fairly straightforward. Once the data is downloaded then it is parsed into a Plain Old Java Object (POJO) which must be defined for each "resource" in the response. 
 
 
+## What Is Coroutines?
+
+In my opinion, the most important structure in an application is coroutines. On Android, coroutines help to manage long-running tasks that might otherwise block the main thread and cause your app to become unresponsive. In this application, in order not to block the main thread and not to freeze the ui, the use of coroutines was used for operations such as pulling data with the network and finding the user's location. So how do we achieve this? It's actually very simple. Answer: With Suspend functions. Suspending functions are at the center of everything coroutines. A suspending function is simply a function that can be paused and resumed at a later time. They can execute a long running operation and wait for it to complete without blocking.
+
+The syntax of a suspending function is similar to that of a regular function except for the addition of the suspend keyword. It can take a parameter and have a return type. However, suspending functions can only be invoked by another suspending function or within a coroutine.
+
 
 
