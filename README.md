@@ -8,6 +8,10 @@ Libraries used: Dagger Hilt (for dependecy injection), Retrofit (for service and
 <br/>
 This application complies with solid principles.
 
+## What Is Compose And What's Diffrent Between XML?
+
+Jetpack Compose is Android’s modern toolkit for building native UI. It simplifies and accelerates UI development on Android. compose is a toolkit that allows us to develop ui in kotlin. Compose allows us to create UI with less code than XML. Composables can hold a state and re-run on state changes. This is called Recomposition. Compose improves your build time and APK size.
+
 ## What Is MVI Pattern
 
 The scalability of the application ensures that updates can be seamlessly added to the application. Some applications may have ever-changing states (loading, error, loaded, etc.). In applications with such content, separating UI and business logic may be right to get out of an application crisis.
