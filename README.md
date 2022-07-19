@@ -1,8 +1,11 @@
 # WeatherApp
 
 This Application uses compose for UI,
+<br/>
 This application includes MVI design pattern,
+<br/>
 Libraries used: Dagger Hilt (for dependecy injection), Retrofit (for service and main safety), Coroutines (for main safety), Moshi ( JSON serialization), etc.
+<br/>
 This application complies with solid principles.
 
 ## What Is MVI Pattern
